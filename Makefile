@@ -118,6 +118,7 @@ mkfs/mkfs: mkfs/mkfs.c $K/fs.h
 .PRECIOUS: %.o
 
 UPROGS=\
+  $U/_xargs\
 	$U/_find\
 	$U/_primes\
 	$U/_pingpong\
